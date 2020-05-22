@@ -19,7 +19,7 @@ namespace Kitabevi
             get { return _kitaptarih; }
             set
             {
-                if (value.Year >= 1900 && value.Year <= DateTime.Now.Year)
+                if (value.Year >= 1000 && value.Year <= DateTime.Now.Year)
                 {
                     _kitaptarih = value;
                 }
