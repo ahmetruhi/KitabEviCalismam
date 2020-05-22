@@ -30,13 +30,13 @@ namespace Kitabevi
                             {
                                 Kitap kitap = new Kitap();
                                 Console.WriteLine("Lütfen {0}. kitap bilgilerini ekleyiniz", i + 1);
-                                Console.Write($"Kitabın adını giriniz: ");
+                                Console.Write("Kitabın adını giriniz: ");
                                 kitap.Kitaptitle = Console.ReadLine().ToUpper();
-                                Console.Write($"Kitabın yazarını giriniz: ");
+                                Console.Write("Kitabın yazarını giriniz: ");
                                 kitap.Kitapyazar = Console.ReadLine();
-                                Console.Write($"Kitabın türünü giriniz: ");
+                                Console.Write("Kitabın türünü giriniz: ");
                                 kitap.Kitaptur = Console.ReadLine();
-                                Console.Write($"Kitabın basım yılını giriniz: ");
+                                Console.Write("Kitabın basım yılını giriniz: ");
                                 kitap.Kitaptarih = new DateTime(Convert.ToInt32(Console.ReadLine()), 1, 1);
                                 Console.WriteLine("--------------------------------------");
                                 Kitabevi[i] = kitap;
